@@ -46,51 +46,11 @@ class OnboardingPage2 extends StatelessWidget {
                   ),
                 ),
               ),
+
               SizedBox(
-                height: 24,
+                height: 52,
               ),
-              RichText(
-                  text: TextSpan(
-                      style: TextStyle(color: Colors.white, fontSize: 18),
-                      children: [
-                    TextSpan(text: '2/'),
-                    TextSpan(
-                        text: '3',
-                        style: TextStyle(
-                            color: Colors.grey.shade600, fontSize: 18))
-                  ])),
-              SizedBox(
-                height: 24,
-              ),
-              // RichText(
-              //     text: TextSpan(children: [
-              //   TextSpan(
-              //       text: '<  ',
-              //       style: TextStyle(
-              //           color: Colors.white,
-              //           fontSize: 24,
-              //           fontWeight: FontWeight.w700)),
-              //   TextSpan(
-              //       text: '. ',
-              //       style: TextStyle(
-              //           color: Colors.grey,
-              //           fontSize: 25,
-              //           fontWeight: FontWeight.w900)),
-              //   TextSpan(
-              //     text: '|',
-              //     style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
-              //   ),
-              //   TextSpan(
-              //       text: ' .',
-              //       style: TextStyle(
-              //           color: Colors.grey,
-              //           fontSize: 25,
-              //           fontWeight: FontWeight.w900)),
-              //   TextSpan(
-              //     text: '  >',
-              //     style: TextStyle(fontSize: 24, fontWeight: FontWeight.w700),
-              //   )
-              // ]))
+              
             ],
           ),
         ],

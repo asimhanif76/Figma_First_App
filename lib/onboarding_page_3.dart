@@ -47,20 +47,8 @@ class OnboardingPage3 extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(
-                height: 24,
-              ),
-              RichText(
-                  text: TextSpan(
-                      style: TextStyle(color: Colors.white, fontSize: 18),
-                      children: [
-                    TextSpan(text: '3/3'),
-                  ])),
-              SizedBox(
-                height: 24,
-              ),
-              SizedBox(
-                height: 90,
+SizedBox(
+                height: 142,
               ),
             ],
           ),
