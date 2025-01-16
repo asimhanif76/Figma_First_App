@@ -1,3 +1,4 @@
+import 'package:figma_first_project/splash_page.dart';
 import 'package:flutter/material.dart';
 
 class OnboardingPage1 extends StatelessWidget {
@@ -21,10 +22,17 @@ class OnboardingPage1 extends StatelessWidget {
                 height: 380,
               ),
               Center(
-                child: Container(
-                  child: Text(
-                    'Welcome To Buy Me',
-                    style: TextStyle(color: Colors.white, fontSize: 30),
+                child:  Container(
+                  child: GestureDetector(
+                    onTap: () => Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => SplashPage(),
+                        )),
+                    child: Text(
+                      'Welcome To Buy Me',
+                      style: TextStyle(color: Colors.white, fontSize: 30),
+                    ),
                   ),
                 ),
               ),
@@ -42,7 +50,6 @@ class OnboardingPage1 extends StatelessWidget {
               SizedBox(
                 height: 52,
               ),
-             
             ],
           ),
         ],

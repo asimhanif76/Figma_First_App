@@ -1,5 +1,4 @@
 import 'package:figma_first_project/login_page.dart';
-import 'package:figma_first_project/payment_method_page.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
@@ -16,7 +15,7 @@ class AddNewCard extends StatelessWidget {
           appbar(),
           cardNameNumber(),
           saveswitchbutton(),
-          SizedBox(
+          const SizedBox(
             height: 250,
           ),
           savecardcontainer(),
@@ -43,7 +42,7 @@ class AddNewCard extends StatelessWidget {
             color: Colors.black,
             borderRadius: BorderRadius.circular(30),
           ),
-          child: Center(
+          child: const Center(
               child: Text(
             'Save Card',
             style: TextStyle(
