@@ -54,8 +54,8 @@ class AddNewCard extends StatelessWidget {
   }
 
   Widget saveswitchbutton() {
-    return Padding(
-      padding: const EdgeInsets.only(left: 20, right: 20),
+    return const Padding(
+      padding: EdgeInsets.only(left: 20, right: 20),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [Text('Save for use in other apps'), switch_button()],
@@ -70,10 +70,10 @@ class AddNewCard extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
-            Text(
+            const Text(
               'Card Name',
               style: TextStyle(color: Colors.grey),
             ),
@@ -90,7 +90,7 @@ class AddNewCard extends StatelessWidget {
                       borderSide: BorderSide.none,
                       borderRadius: BorderRadius.circular(10))),
             ),
-            SizedBox(
+            const SizedBox(
               height: 25,
             ),
             Text(
@@ -110,7 +110,7 @@ class AddNewCard extends StatelessWidget {
                       borderSide: BorderSide.none,
                       borderRadius: BorderRadius.circular(10))),
             ),
-            SizedBox(
+            const SizedBox(
               height: 25,
             ),
             Row(
