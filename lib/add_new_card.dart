@@ -93,11 +93,11 @@ class AddNewCard extends StatelessWidget {
             const SizedBox(
               height: 25,
             ),
-            Text(
+            const Text(
               'Card Number',
               style: TextStyle(color: Colors.grey),
             ),
-            SizedBox(
+           const SizedBox(
               height: 10,
             ),
             TextField(
