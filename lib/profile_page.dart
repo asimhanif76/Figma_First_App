@@ -10,7 +10,7 @@ class ProfilePage extends StatelessWidget {
       body: Column(
         children: [
           Container(
-            padding: EdgeInsets.only(top: 50, left: 20, right: 20),
+            padding: const EdgeInsets.only(top: 50, left: 20, right: 20),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
@@ -41,7 +41,7 @@ class ProfilePage extends StatelessWidget {
             margin: EdgeInsets.all(30),
             // width: 70,
             // height: 70,
-            child: Stack(children: [
+            child: const Stack(children: [
               CircleAvatar(
                   radius: 40,
                   backgroundImage: AssetImage(
@@ -55,7 +55,7 @@ class ProfilePage extends StatelessWidget {
           Container(
             margin: EdgeInsets.only(left: 25, top: 40),
             alignment: Alignment.topLeft,
-            child: Column(
+            child: const Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(

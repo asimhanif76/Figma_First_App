@@ -79,7 +79,7 @@ class InviteFriendsPage extends StatelessWidget {
                   suffixIcon: Icon(Icons.content_copy_sharp)),
             ),
           ),
-          SizedBox(
+          const SizedBox(
             height: 70,
           ),
           Container(
@@ -87,7 +87,7 @@ class InviteFriendsPage extends StatelessWidget {
             width: 350,
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(30), color: Colors.black),
-            child: Center(
+            child: const Center(
               child: Text(
                 'Invite A Friends',
                 style: TextStyle(fontSize: 18, color: Colors.white),

@@ -9,7 +9,7 @@ class BookmarkPage extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
-          SizedBox(
+          const SizedBox(
             height: 60,
           ),
           Row(
@@ -26,7 +26,7 @@ class BookmarkPage extends StatelessWidget {
                         ));
                   },
                   child: Icon(Icons.arrow_back_ios_new_outlined)),
-              SizedBox(
+              const SizedBox(
                 width: 102,
               ),
               Text(
