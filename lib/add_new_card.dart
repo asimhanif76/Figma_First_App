@@ -119,14 +119,14 @@ class AddNewCard extends StatelessWidget {
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(
+                    const Text(
                       'Expiry Date',
                       style: TextStyle(color: Colors.grey),
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 10,
                     ),
-                    Container(
+                    SizedBox(
                       height: 50,
                       width: 170,
                       child: TextField(
