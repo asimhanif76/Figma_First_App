@@ -29,7 +29,7 @@ class PaymentSucessfulPage extends StatelessWidget {
                     SizedBox(
                       height: 15,
                     ),
-                    Text(
+                    const Text(
                       "Sucessful",
                       style:
                           TextStyle(fontSize: 25, fontWeight: FontWeight.w600),
@@ -37,7 +37,7 @@ class PaymentSucessfulPage extends StatelessWidget {
                     SizedBox(
                       height: 15,
                     ),
-                    Text("Your Order Placed Sucessfully!"),
+                    const Text("Your Order Placed Sucessfully!"),
                   ],
                 ),
               ),

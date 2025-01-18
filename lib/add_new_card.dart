@@ -141,13 +141,13 @@ class AddNewCard extends StatelessWidget {
                     ),
                   ],
                 ),
-                SizedBox(
+                const SizedBox(
                   width: 10,
                 ),
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(
+                    const Text(
                       'CVC',
                       style: TextStyle(color: Colors.grey),
                     ),

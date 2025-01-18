@@ -9,12 +9,12 @@ class NotificationPage extends StatelessWidget {
     return Scaffold(
       body: Column(
         children: [
-          SizedBox(
+          const SizedBox(
             height: 60,
           ),
           Row(
             children: [
-              SizedBox(
+              const SizedBox(
                 width: 20,
               ),
               InkWell(

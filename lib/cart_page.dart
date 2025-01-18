@@ -62,7 +62,7 @@ class CartPage extends StatelessWidget {
             width: 350,
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(30), color: Colors.black),
-            child: Center(
+            child: const Center(
               child: Text(
                 'Add Products',
                 style: TextStyle(fontSize: 18, color: Colors.white),
